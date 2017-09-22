@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[official]{eurosym}
+\usepackage[]{algorithm2e}
+\usepackage[normalem]{ulem}
+\usepackage{color}
+\usepackage{tcolorbox}
+
+
+\newcommand{\remove}[1]{{}}
+\newcommand{\ignore}[1]{{}}
+\newcommand{\rednote}[1]{{\color{red} #1}}
+\newcommand{\bluenote}[1]{{\color{blue} #1}}
+
+
+
+\begin{document}
+
+\noindent
+{CS 341, Fall 2017 \hfill  A. Lubiw, B. Ma, E. Zima}
+
+
+\begin{center}
+{\large\bf ASSIGNMENT 2}
+\end{center}
+
+\bigskip
+\noindent
+DUE: Wednesday September 27, 7 PM.
+DO NOT COPY.  ACKNOWLEDGE YOUR SOURCES.
+
+\medskip
+\noindent
+Please read \verb| http://www.student.cs.uwaterloo.ca/~cs341 | for general
+instructions and policies.
+
+\medskip
+\noindent
+NOTE: There is a programming question in a separate file.
+
+
+\medskip
+\noindent
+
+\begin{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item{[10 marks]}  {\bf Divide-and-conquer.}
+One popular way to rank researchers is by their  ``$h$-index''.  
+A researcher's $h$-index is the maximum integer $k$ such that the researcher has at least $k$ papers that have been cited at least $k$ times each.
+Suppose Professor X has written $n$ papers and paper $i$ has been cited $c_i$ times.  
+Suppose you have these sorted in an array $C$ with $c_1 > c_2 > \ldots > c_n$.  
+Give a divide-and-conquer algorithm to find Professor X's $h$-index.  Your algorithm should run in time $O(\log n)$.  
+
+As noted on the course web page, ``giving'' an algorithm means: describe the algorithm briefly in words, give high-level pseudocode, justify correctness, and analyze run-time.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item{[15 marks]} {\bf Squaring a matrix.}
+\begin{enumerate}
+\item{} [3 marks] Suppose you are given a $2 \times 2$ matrix $A$ and you want to compute $A^2$.  Show that you can do this with 5 multiplications.
+
+
+\item{} [6 marks]  Consider the following divide-and-conquer algorithm to compute $A^2$ when $A$ is an $n \times n$ matrix:  The algorithm is like Strassen's algorithm except that we get 5 problems of size $n/2$ (by part (a)) instead of getting 7 subproblems of size $n/2$ as in Strassen's algorithm.  This gives a run-time of $O(n^{\log_2 5}) \approx O(n^ {2.32})$---even better than Strassen's run-time of $O(n^{2.81})$.  
+
+Explain what is wrong with the above algorithm and analysis. 
+
+
+\item{} [6 marks]  Show that squaring matrices is in fact no easier than multiplying matrices.  To do this, prove that if there is an algorithm with run time $O(n^c)$ that will square an $n \times n$ matrix, then there is an algorithm with run-time $O(n^c)$ that will multiply two $n \times n$ matrices.
+(In other words, you will be reducing the problem of multiplying matrices to the problem of squaring matrices.)   
+
+
+\end{enumerate}
+
+\end{enumerate}
+
+
+\end{document}

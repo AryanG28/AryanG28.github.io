@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/theme.css" rel="stylesheet">
+
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <title>Aryan Ghahremanzadeh</title>
+    
+    
+</head>
+
+<body id="page-top" class="index">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#home">Home</a>
+                    </li>>
+                    <li class="page-scroll">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header id="home">
+		
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">Aryan Ghahremanzadeh
+						 </span>
+						 <br>
+                        <span class="skills">3A Computer Science at the University of Waterloo </span>
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="mailto: a2ghahre@edu.uwaterloo.ca" class="btn btn-lg btn-outline">
+					<i class="fa fa-glyphicon glyphicon-envelope"> 
+                       </i>  Contact
+                    </a>					
+					
+					<a href="https://github.com/AryanG28" class="btn btn-lg btn-outline">
+                        <i class="fa fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        
+        
+    
+	
+	
+	
+           <!-- About Section -->
+  <!--      
+       <section id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About me </h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">			
+                
+		
+    </section>
+    
+    -->
+    
+    
+    <section class="experience" id="experience">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr class="star-secondary">
+                </div>
+            </div>
+            
+             <section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img">
+                <i class="material-icons">work</i> 
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<strong style="color:#303e49;font-size:150%";>PdMAIN</strong>
+                <p class="secondaryText">Software Developer</p>
+				<ul style="color:#303e49;font-size:80%;">
+                    <li>- Created a face detection program in python with dlib machine learning library, Azure and REST API</li></br>
+                    <li>- Optimized startup time by serializing processed face encodings in a pickled file and reloading the file on startup</li></br>
+                    <li>- Increased speed by <strong>570%</strong> by using multithreading to do the processing separate from the capturing</li></br>
+                    <li>- Built a smart security camera with motion detection on Raspberry Pi that sent alerts to guards with python and bash. Created a web interface to display the live camera feed, recorded video, etc. with HTML5 and JavaScript.</li></br>
+                    <li>- Designed a traffic sign detection system using deep learning, TensorFlow and OpenCV</li></br>
+                </ul>
+
+                
+                
+            
+				<span class="cd-date">May 2017 - Sep 2017</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img">
+                <i class="material-icons">work</i> 
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<strong style="color:#303e49;font-size:150%";>LimeTac</strong>
+                <p class="secondaryText">Part-time Software Developer</p>
+				<ul style="color:#303e49;font-size:80%";>
+                    <li>- Developed C# Xamarin Android Service to receive a variety of data from beacons (distance, temperature, etc)</li></br>
+                    <li>- Collected GPS data from phone and merged with beacon data in JSON object. Sent JSON to the Azure IoT hub</li></br>
+                    <li>- Created a python Raspberry Pi program that received data from beacons and sent JSON to Azure IoT Hub</li></br>
+                </ul>
+				<span class="cd-date">Nov 2016 - Feb 2017</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+		
+                 
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img">
+                <i class="material-icons">work</i> 
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<strong style="color:#303e49;font-size:150%";>Dell EMC</strong>
+				<p class="secondaryText">Software Developer</p>
+                <ul style="color:#303e49;font-size:80%";>
+                    <li>- Optimized backup and recovery of Oracle databases by creating customizable flag files in <strong>C++</strong></li></br>
+                    <li>- Used knowledge of <strong>networking</strong>, <strong>multiprocessing, multithreading</strong> and <strong>sockets</strong> to improved performance by <strong>15%</strong> of backup and recovery of Oracle databases by modifying an existing process to not run in certain cases.</li></br>
+                    <li>- Collaborated in an agile environment and gained practical experience in the software development life cycle</li></br>
+                </ul>
+
+				<span class="cd-date">May 2016 - Sep 2016</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+
+            
+            
+            
+        </div>
+    </section>
+        
+        
+        
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-primary">
+					<h3>Click on image for project details</h3>
+                </div>
+            </div>
+            <div class="row">			
+                <div class="col-sm-4 portfolio-item">
+				<center> <h4> Chamber Crawler 3000 </h4> 
+					<h6 class= "text-muted" >Created using C++</h6> </center>
+				
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"> </i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/chambercrawler.png" class="img-responsive" alt=""> </center> 
+                    </a>
+
+                </div>
+                <div class="col-sm-4 portfolio-item">
+					<center> <h4> Handwriting digit recognition </h4> 
+					<h6 class= "text-muted" >Created using Python</h6> </center>
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/digits_top.jpg" class="img-responsive" alt=""> </center> 
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+					<center> <h4> Piano key detection </h4> 
+					<h6 class= "text-muted" >Created using C++</h6> </center>
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/Middle-C-on-a-Piano.jpg" class="img-responsive" alt=""> </center>
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="col-sm-4 portfolio-item">
+				<center> <h4> The Price is Right Die Game </h4> 
+					<h6 class= "text-muted" >Created using Java</h6> </center>
+				
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"> </i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/price-is-right.png" class="img-responsive" alt=""> </center> 
+                    </a>
+
+                </div>
+                <div class="col-sm-4 portfolio-item">
+					<center> <h4> Watbus android application </h4> 
+					<h6 class= "text-muted" >Created using Java</h6> </center>
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/WatBus.jpg" class="img-responsive" alt=""> </center> 
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+					<center> <h4> Student Client/Store </h4> 
+					<h6 class= "text-muted" >Created using Java</h6> </center>
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/student.png" class="img-responsive" alt=""> </center>
+                    </a>
+                </div>
+                
+                
+                
+                
+                
+                <div class="col-sm-4 portfolio-item">
+					<center> <h4> Pacman </h4> 
+					<h6 class= "text-muted" >Created using Java</h6> </center>
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <center> <img src="img/portfolio/pacman.jpg" class="img-responsive" alt=""> </center>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+					<center> <h4> Survival </h4> 
+					<h6 class= "text-muted" >Created using Unity Game Engine, JavaScript</h6> </center>
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/shooter.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item"> 
+					<center> <h4> Data Structures </h4> 
+					<h6 class= "text-muted" >Created using Java</h6> 
+					</center>
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/data-structures.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+		
+    </section>
+	
+
+	    <!-- About Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Technical Skills</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">				
+                <div class="col-lg-4 ">
+				<p> Languages:
+                    <ul style="list-style-type:square">
+						<li>C++</li>
+						<li>C</li>
+						<li>Python</li>
+						<li>Java</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Scala</li>
+						<li>C#</li>
+					</ul>					
+                </div>
+                <div class="col-lg-4 ">
+                    <p> Frameworks/Libraries: </p>
+					<ul style="list-style-type:square">
+						<li>OpenCV</li>
+						<li>Dlib</li>
+                        <li>Bootstrap</li>
+						<li>Android SDK</li>
+                        <li>Unity Game Engine</li>
+						<li>Tensorflow</li>
+					</ul>
+                </div>
+				<div class="col-lg-4 ">
+                    <p> Other: </p>
+					<ul style="list-style-type:square">
+						<li>Azure</li>
+						<li>Oracle</li>
+                        <li>SQL-server</li>
+						<li>Perforce</li>
+                        <li>Git</li>
+						<li>TFS</li>
+                        <li>Netbeans</li>
+						<li>Eclipse</li>
+                        <li>Visual Studio</li>
+                        <li>Windows</li>
+						<li>Linux/UNIX</li>
+                        <li>Xamarin</li>
+                        <li>VMware</li>
+                        <li>IoT</li>
+						<li>Raspberry Pi</li>
+                        <li>JSON</li>
+					</ul>
+                </div>
+				
+            </div>
+			
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">  
+                    <center>					
+                        <h3>Follow me!</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/AryanG28" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/AryanGTech" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://ca.linkedin.com/in/aryan-ghahremanzadeh-79181a111" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    
+					</center>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Aryan Ghahremanzadeh 2017 | Built with <a href="http://getbootstrap.com"> Bootstrap </a>
+						<br>
+						This site is still currently under construction. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Chamber Crawler 3000</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/chambercrawler.png" class="img-responsive img-centered" alt="">
+                            <p> Created a C++ Dungeon Crawler game which incorporated different design patterns (MVC, Factory, Visitor). The assignment was completed in a team using Git for CS246 Object Oriented Design course with a final grade of 109%
+							</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Handwriting Digit Recognition</h2>
+                            <hr class="star-primary">
+                            <center> <img src="img/portfolio/digits_top.jpg" class="img-responsive img-centered" alt=""> </center> 
+                            <p> Side project done to figure out best way to do image recognition for work. Uses machine learning techniques namely Linear SVM to train the MNIST dataset to detect digits. Effectively uses Histogram of Oriented Gradients (HoG) as the feature descriptor. Learned it may be slower than conventional Neural networks. 
+ </p>
+                            <ul class="list-inline item-details">
+                                <li> 
+                                    <a href="https://github.com/Farjaad/WatBus"> Source code  </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>July 2017</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Piano key detection</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Middle-C-on-a-Piano.jpg" class="img-responsive img-centered" alt="">
+                            <p> Implemented C++ OpenCV code that detects piano keys as part of our Hack the North hackathon project. We tried to get it onto Ar so we could implement a new way of learning how to play a song. 
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>September 2016</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+<div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>The Price is Right Die Game</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/price-is-right.png" class="img-responsive img-centered" alt="">
+                            <p> Replicated the die game from the Price is Right game show using Java. 
+							I used Object Oriented programming and a GUI to create this project. Here is a video of the real game to show how it works. 
+							</p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/FmsiI2dAjbg" frameborder="0" allowfullscreen></iframe>
+                            <ul class="list-inline item-details">
+                            <ul class="list-inline item-details">
+                                <li> 
+                                    <a href="https://github.com/AryanG28/ICS4Uprojects/blob/master/src/gwss/edu/ics4u/aryan/dice/ThePriceIsRight.java"> Source code  </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 2014</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>WatBus Android Application</h2>
+                            <hr class="star-primary">
+                            <center> <img src="img/portfolio/Watbus.jpg" class="img-responsive img-centered" alt=""> </center> 
+                            <p> WatBus is an Android application developed using Android Studio with a friend. The user selects a campus building 
+							and the closest bus stop to the campus building is displayed. The application also provides the bus stop number which they can text
+							to 575-55 to find the next scheduled bus at that stop. It provides the user the convenience of knowing the updated bus times before going 
+							to the stop. This was made in a 2 person team, which allowed me to become more comfortable working with a Version Control System (Git). </p>
+                            <ul class="list-inline item-details">
+                                <li> 
+                                    <a href="https://github.com/Farjaad/WatBus"> Source code  </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 2015</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Student Store</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/student.png" class="img-responsive img-centered" alt="">
+                            <p> Using Object Orientated Programming and saving to a file. 
+							This asks a user for input and creates and adds student records to a file. User is also able to update the file. 
+                            <ul class="list-inline item-details">
+                                <li> 
+                                    <a href="https://github.com/AryanG28/ICS4Uprojects/blob/master/src/gwss/edu/ics4u/aryan/studentstore/StudentStoreIO.java"> Source code  </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>November 2014</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pacman</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/pacman.jpg" class="img-responsive img-centered" alt="">
+                            <p> Created pacman using object orienated programming, abstraction, polymorhpism and a GUI. 
+							Tested many different movements and actions of Pacman and ghosts. Put many functions of pacman and ghosts and can be turned into a legitimate pacman game. </p>
+                            <ul class="list-inline item-details">
+                                <li> 
+                                    <a href="https://github.com/AryanG28/ICS4Uprojects/tree/master/src/gwss/edu/ics4u/aryan/pacman"> Source code  </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 2014</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Survival</h2>
+                            <hr class="star-primary">
+							<img src="img/portfolio/shooter.png" class="img-responsive img-centered" alt="">
+                            <p> A first person shooter survival game built with Unity Game Engine. 
+							The User tries to survive as long as possible and shoots enemy AI's as they try to kill the user. </p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong> June 2015 - August 2015 </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Data Structures</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/data-structures.jpg" class="img-responsive img-centered" alt="">
+                            <p> A compilation of Data Structures we made using Java in grade 12 computer science. The list includes stacks, queues, linked lists and hash tables. </p>
+                            <ul class="list-inline item-details">
+                                <li> 
+                                    <a href= "https://github.com/AryanG28/ICS4Uprojects/tree/master/src/gwss/edu/ics4u/aryan/u6"> Source code  </a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 2015</strong>
+                                </li>
+                            </ul>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/theme.js"></script>
+
+    <!-- Timeline JS --> 
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</body>
+
+</html>
