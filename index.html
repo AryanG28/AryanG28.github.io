@@ -133,7 +133,30 @@
                 </div>
             </div>
 		
-            <section id="cd-timeline" class="cd-container">
+
+<!-- ------------------------------------------------------------------------------>
+
+
+		<div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <i class="material-icons">work</i>
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <strong style="color:#303e49;font-size:150%";>Amazon</strong>
+                <p class="secondaryText">Software Development Engineer Intern</p>
+                <ul style="color:#303e49;font-size:80%;">
+                    <li>- Intern on the Operations team </li></br>
+                </ul>
+
+                <span class="cd-date">May 2019 - Sep 2019</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+
+<!-- ------------------------------------------------------------------------------>
+
+        <section id="cd-timeline" class="cd-container">
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img">
                 <i class="material-icons">work</i> 
@@ -143,42 +166,19 @@
 				<strong style="color:#303e49;font-size:150%";>Life360</strong>
                 <p class="secondaryText">Platform Software Engineering Intern </p>
 				<ul style="color:#303e49;font-size:80%;">
+                    <li>- Replaced costly external provider to retrieve nearby places by integrating new placer.ai Go API endpoint</li></br>
+                    <li>- Helped increase locations sent by 33% by releasing feature to use MQTT protocol instead of polling</li></br>
                     <li>- Created and shipped a PHP crime report endpoint to production which returns all nearby crimes in a given area</li></br>
-                    <li>- Integrated new placer.ai API endpoint to retrieve known nearby places and replace costly external provider in GO</li></br>
-                    <li>- Rolled out and monitored a new feature which enhanced customer experience by increasing locations sent by 33%</li></br>
                     <li>- Created unit and integration tests to test endpoints before deployment in Java</li></br>
-                    <li>- Work for platform team which receives over 1 million requests per minute</li></br>
+                    <li>- Worked for platform team which receives over 1 million requests per minute</li></br>
 	    	</ul>
 
                 
-                
-            
 				<span class="cd-date">Sep 2018 - Dec 2018</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
-		     
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img">
-                <i class="material-icons">work</i> 
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<strong style="color:#303e49;font-size:150%";>PdMAIN</strong>
-                <p class="secondaryText">Software Developer</p>
-				<ul style="color:#303e49;font-size:80%;">
-                    <li>- Created a face detection program in python with dlib machine learning library, Azure and REST API</li></br>
-                    <li>- Optimized startup time by serializing processed face encodings in a pickled file and reloading the file on startup</li></br>
-                    <li>- Increased speed by <strong>570%</strong> by using multithreading to do the processing separate from the capturing</li></br>
-                    <li>- Built a smart security camera with motion detection on Raspberry Pi that sent alerts to guards with python and bash. Created a web interface to display the live camera feed, recorded video, etc. with HTML5 and JavaScript.</li></br>
-                    <li>- Designed a traffic sign detection system using deep learning, TensorFlow and OpenCV</li></br>
-                </ul>
-
-                
-                
-            
-				<span class="cd-date">May 2017 - Sep 2017</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+		
+<!-- ------------------------------------------------------------------------------> 
             
              <section id="cd-timeline" class="cd-container">
 		<div class="cd-timeline-block">
@@ -190,11 +190,10 @@
 				<strong style="color:#303e49;font-size:150%";>The Weather Network</strong>
                 <p class="secondaryText">Big Data Developer</p>
 				<ul style="color:#303e49;font-size:80%;">
-                    <li>- Developed dataflow to extract demographic insights from location data to create segments for advertising</li></br>
-                    <li>- Implemented features to the distributed architecture for big data processing in Google Cloud Dataflow using Java</li></br>
-                    <li>- Created a weather watcher REST API for condition-based ad-triggering system that triggers Google DBM ads based on real-time weather using python, AWS Lambda, CloudWatch, API Gateway and DynamoDB</li></br>
-                    <li>- Improved performance by 11% by caching common requests and using asynchronous calls</li></br>
-                    <li>- Extracted data in response to specific client requests on Google Big Query(noSQL) using SQL queries</li></br>
+					<li>- Extracted demographic insights from location data to create segments for advertising by creating a Google dataflow</li></br>
+                    <li>- Created a REST API that triggers Google DBM ads based on real-time weather using <strong>Python</strong>, <strong>AWS</strong> Lambda, AWS CloudWatch, AWS API Gateway and AWS DynamoDB </li></br>
+                    <li>- Improved performance by <strong>11%</strong> by caching common requests and using asynchronous calls</li></br>
+                    <li>- Extracted data in response to specific client requests on Google Big Query(noSQL) using <strong>SQL</strong> queries</li></br>
 	    	</ul>
 
                 
@@ -203,6 +202,12 @@
 				<span class="cd-date">Jan 2018 - Apr 2018</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
+
+
+
+<!-- ------------------------------------------------------------------------------>
+
+
 		     
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img">
@@ -213,10 +218,10 @@
 				<strong style="color:#303e49;font-size:150%";>PdMAIN</strong>
                 <p class="secondaryText">Software Developer</p>
 				<ul style="color:#303e49;font-size:80%;">
-                    <li>- Created a face detection program in python with dlib machine learning library, Azure and REST API</li></br>
-                    <li>- Optimized startup time by serializing processed face encodings in a pickled file and reloading the file on startup</li></br>
-                    <li>- Increased speed by <strong>570%</strong> by using multithreading to do the processing separate from the capturing</li></br>
-                    <li>- Built a smart security camera with motion detection on Raspberry Pi that sent alerts to guards with python and bash. Created a web interface to display the live camera feed, recorded video, etc. with HTML5 and JavaScript.</li></br>
+                    <li>- Created a face recognition program from scratch with <strong>Python</strong>,<strong> Azure</strong> dlib machine learning library and REST API</li></br>
+                    <li>- Increased speed by <strong>570%</strong> by caching face encodings and using multithreading to isolate capturing from processing </li></br>
+                    <li>- Built a smart security camera with motion detection on Raspberry Pi that sent alerts to guards with Python and Bash</li></br>
+					<li>- Created a web interface to display the live camera feed, recorded video, etc. with HTML5 and JavaScript</li></br>
                     <li>- Designed a traffic sign detection system using deep learning, TensorFlow and OpenCV</li></br>
                 </ul>
 
@@ -226,6 +231,11 @@
 				<span class="cd-date">May 2017 - Sep 2017</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
+
+<!-- ------------------------------------------------------------------------------>
+
+
+
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img">
@@ -244,6 +254,9 @@
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 		
+
+<!-- ------------------------------------------------------------------------------>
+
                  
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img">
@@ -262,14 +275,29 @@
 				<span class="cd-date">May 2016 - Sep 2016</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
-	</section> <!-- cd-timeline -->
 
-            
-            
-            
+
+<!-- ------------------------------------------------------------------------------>
+
+<div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <i class="material-icons">school</i>
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <strong style="color:#303e49;font-size:150%";>University of Waterloo</strong>
+                <ul style="color:#303e49;font-size:80%";>
+                    <li>- Candidate for Bachelor of Computer Science, Software Engineering Option, Honours, Co-operative Program </li></br>
+                </ul>
+
+                <span class="cd-date">2015</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
         </div>
     </section>
         
+<!-- ------------------------------------------------------------------------------>
         
         
     <!-- Portfolio Grid Section -->
